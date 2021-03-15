@@ -8,3 +8,8 @@ Before compiling enter your SSID and PW to the code. The CLIENT_ID is for mdns i
 
 - http://IP-ADDRESS/  => if everything is running, the return value is OK
 - http://IP-ADDRESS/exec?command=COMMAND => replace COMMAND with a actual command from the possible command list. For example: http://IP-ADDRESS/exec?command=getcharger will return the current values for charging and docking state. 
+
+To build the project please use platformio.io.
+
+# License
+MIT License (see LICENSE)
